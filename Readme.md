@@ -14,7 +14,7 @@ I am one software engineer, interested in building interesting software, practic
 skills. I am also researching world models and agent technologies, while exploring how
 they can be turned into useful and reliable tools.
 
-## Technical Skills
+## Technical Skills And Roles
 
 `FDE` · `AI Agent` · `Python` · `Java` · `Golang` · `SQL` · `Linux`
 
