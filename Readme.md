@@ -1,10 +1,12 @@
+<p align="right"><strong>中文</strong> · <a href="Readme.en.md">English</a></p>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
   <img src="assets/banner-light.svg" alt="Wayne" width="100%">
 </picture>
 
-Software engineer working on AI infrastructure and agent tooling.
+软件工程师，方向是 AI 基建和 Agent 工具。
 
 ```console
 $ whoami
@@ -14,17 +16,17 @@ $ ls ~/work
 backend/  ai-infra/  agent-tooling/  oss/
 ```
 
-## Now
+## 现在
 
-Looking for a role in AI infrastructure or backend engineering. In the meantime, I'm building agent tooling and contributing to open source.
+目前在看 AI 基建或后端方向的机会。平时写 Agent 工具，也给开源项目提 PR。
 
-## Stack
+## 技术栈
 
-I work mostly in Python, Java, and Go, and use TypeScript for full-stack WeChat Mini Program development. Deployment goes through CI/CD to the cloud.
+主要写 Python、Java、Go，客户端用 TypeScript，微信小程序前后端都能做。部署走 CI/CD 上云。
 
 ```mermaid
 flowchart LR
-    subgraph Languages
+    subgraph lang[语言]
         direction TB
         py[Python]
         java[Java]
@@ -32,17 +34,17 @@ flowchart LR
         ts[TypeScript]
     end
 
-    subgraph Work
+    subgraph work[工作]
         direction TB
-        ai[AI infrastructure and agents]
-        svc[Backend services]
-        mini[WeChat Mini Programs]
+        ai[AI 基建与 Agent]
+        svc[后端服务]
+        mini[微信小程序]
     end
 
-    subgraph Ship
+    subgraph ship[交付]
         direction TB
         ci[CI/CD]
-        cloud[Cloud deployment]
+        cloud[上云]
     end
 
     py --> ai
