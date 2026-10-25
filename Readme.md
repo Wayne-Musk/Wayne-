@@ -1,34 +1,59 @@
-# Hi, I'm Wayne 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img src="assets/banner-light.svg" alt="Wayne" width="100%">
+</picture>
 
-<p align="left">
-  <a href="https://github.com/Wayneway26">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github" alt="GitHub profile" />
-  </a>
-  <img src="https://img.shields.io/badge/Focus-Research%20%26%20Engineering-2563EB?style=flat-square" alt="Research and engineering" />
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-16A34A?style=flat-square" alt="Open to opportunities" />
-</p>
+Software engineer working on AI infrastructure and agent tooling.
 
-## About Me
+```console
+$ whoami
+Wayne
 
-I am a software engineer interested in building useful software, practical plugins, and AI-powered
-skills. I am also researching world models and agent technologies, exploring how
-they can be turned into useful and reliable tools.
+$ ls ~/work
+backend/  ai-infra/  agent-tooling/  oss/
+```
 
-## Technical Skills
+## Now
 
-`FDE` · `AI Agent` · `Python` · `Java` · `Golang` · `SQL` · `Linux`
+Looking for a role in AI infrastructure or backend engineering. In the meantime, I'm building agent tooling and contributing to open source.
 
-## Experience
+## Stack
 
-3 internships
+I work mostly in Python, Java, and Go, and use TypeScript for full-stack WeChat Mini Program development. Deployment goes through CI/CD to the cloud.
 
-## What I Value
+```mermaid
+flowchart LR
+    subgraph Languages
+        direction TB
+        py[Python]
+        java[Java]
+        go[Go]
+        ts[TypeScript]
+    end
 
-- Clear questions before complex solutions
-- Code that is readable, testable, and reproducible
-- Continuous learning through research and collaboration
-- Open communication and thoughtful documentation
+    subgraph Work
+        direction TB
+        ai[AI infrastructure and agents]
+        svc[Backend services]
+        mini[WeChat Mini Programs]
+    end
 
-<p align="center">
-  <i>Building carefully, learning continuously.</i>
-</p>
+    subgraph Ship
+        direction TB
+        ci[CI/CD]
+        cloud[Cloud deployment]
+    end
+
+    py --> ai
+    go --> ai
+    py --> svc
+    java --> svc
+    go --> svc
+    ts --> mini
+    ts --> svc
+    ai --> ci
+    svc --> ci
+    mini --> ci
+    ci --> cloud
+```
