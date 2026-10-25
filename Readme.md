@@ -1,7 +1,7 @@
 # Hi, I'm Wayne 👋
 
 <p align="left">
-  <a href="https://github.com/your-username">
+  <a href="https://github.com/Wayneway26">
     <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github" alt="GitHub profile" />
   </a>
   <img src="https://img.shields.io/badge/Focus-Research%20%26%20Engineering-2563EB?style=flat-square" alt="Research and engineering" />
@@ -10,17 +10,17 @@
 
 ## About Me
 
-I am one software engineer, interested in building interesting software, practical plugins, and AI-powered
-skills. I am also researching world models and agent technologies, while exploring how
+I am a software engineer interested in building useful software, practical plugins, and AI-powered
+skills. I am also researching world models and agent technologies, exploring how
 they can be turned into useful and reliable tools.
 
-## Technical Skills And Roles
+## Technical Skills
 
 `FDE` · `AI Agent` · `Python` · `Java` · `Golang` · `SQL` · `Linux`
 
 ## Experience
 
-3 Internship
+3 internships
 
 ## What I Value
 
