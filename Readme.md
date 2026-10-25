@@ -1,4 +1,4 @@
-<p align="right"><strong>中文</strong> · <a href="Readme.en.md">English</a></p>
+<p align="right"><strong>中文</strong> · <a href="#english">English</a></p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
@@ -6,56 +6,62 @@
   <img src="assets/banner-light.svg" alt="Wayne" width="100%">
 </picture>
 
-软件工程师，方向是 AI 基建和 Agent 工具。
+软件工程师，主要做 AI Agent 开发和 AI 相关后端接口。
 
 ```console
 $ whoami
 Wayne
 
 $ ls ~/work
-backend/  ai-infra/  agent-tooling/  oss/
+backend/  agent-tooling/  ai-apis/  oss/
 ```
 
 ## 现在
 
-目前在看 AI 基建或后端方向的机会。平时写 Agent 工具，也给开源项目提 PR。
+目前秋招中，主要在看后端开发、测试开发和 AI Agent 开发的机会。
 
 ## 技术栈
 
-主要写 Python、Java、Go，客户端用 TypeScript，微信小程序前后端都能做。部署走 CI/CD 上云。
+主要写 Python、Java、Go，客户端用 TypeScript，微信小程序前后端都能做。Linux 日常在用，CI/CD 和上云部署也能自己搞定。
 
 ```mermaid
-flowchart LR
-    subgraph lang[语言]
-        direction TB
-        py[Python]
-        java[Java]
-        go[Go]
-        ts[TypeScript]
-    end
+flowchart TB
+    root((技术栈))
+    root --> backend["后端<br/>Python · Java · Go"]
+    root --> client["客户端<br/>TypeScript · 微信小程序"]
+    root --> ai["AI<br/>Agent 开发 · 后端接口"]
+    root --> ops["部署<br/>Linux · CI/CD · 上云"]
+```
 
-    subgraph work[工作]
-        direction TB
-        ai[AI 基建与 Agent]
-        svc[后端服务]
-        mini[微信小程序]
-    end
+---
 
-    subgraph ship[交付]
-        direction TB
-        ci[CI/CD]
-        cloud[上云]
-    end
+<p align="right"><a href="#top">中文</a> · <strong>English</strong></p>
 
-    py --> ai
-    go --> ai
-    py --> svc
-    java --> svc
-    go --> svc
-    ts --> mini
-    ts --> svc
-    ai --> ci
-    svc --> ci
-    mini --> ci
-    ci --> cloud
+## English
+
+Software engineer working on AI agent development and AI-related backend APIs.
+
+```console
+$ whoami
+Wayne
+
+$ ls ~/work
+backend/  agent-tooling/  ai-apis/  oss/
+```
+
+### Now
+
+Currently job hunting during the autumn recruitment cycle, looking for backend, test development, or AI agent roles.
+
+### Stack
+
+I mostly write Python, Java, and Go. On the client side I use TypeScript, including full-stack WeChat Mini Programs. I also work with Linux, CI/CD, and cloud deployment.
+
+```mermaid
+flowchart TB
+    root((stack))
+    root --> backend["Backend<br/>Python · Java · Go"]
+    root --> client["Client<br/>TypeScript · WeChat Mini Programs"]
+    root --> ai["AI<br/>Agent development · backend APIs"]
+    root --> ops["Delivery<br/>Linux · CI/CD · cloud"]
 ```
