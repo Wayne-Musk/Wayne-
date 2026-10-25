@@ -6,30 +6,31 @@
   <img src="assets/banner-light.svg" alt="Wayne" width="100%">
 </picture>
 
-软件工程师，方向为 AI Agent 开发和 AI 相关后端接口开发，同时具备自动化测试、Agent 机器人开发
+软件工程师，方向是 AI Agent、AI 后端接口和 Agent Bot 开发，也写自动化测试。
 
 ```console
 $ whoami
 Wayne
 
 $ ls ~/work
-backend/  agent-tooling/  ai-apis/  oss/
+backend/  agent-tooling/  ai-apis/  testing/  oss/
 ```
 
 ## 现在
 
-目前秋招求职中，主要在看AI Agent 开发、后端开发、测试开发的机会。
+目前秋招中，主要看 AI Agent、后端开发和测试开发的机会。
 
 ## 技术栈
 
-主要写 Python、Java、Go，客户端用 TypeScript，有全栈开发并部署云端，包含域名、安全组规则配置经验，微信小程序前后端都能做。Linux 日常在用，CI/CD 和上云部署也能自己搞定。
+主要写 Python、Java、Go，客户端用 TypeScript，微信小程序前后端都能做。做过全栈开发和云端部署，域名、安全组规则这些也配过；Linux 日常在用，CI/CD 和上云部署也能自己搞定。
 
 ```mermaid
 flowchart TB
     root((技术栈))
     root --> backend["后端<br/>Python · Java · Go"]
     root --> client["客户端<br/>TypeScript · 微信小程序"]
-    root --> ai["AI<br/>Agent 开发 · 后端接口"]
+    root --> ai["AI<br/>Agent / Bot · AI 后端接口"]
+    root --> qa["测试<br/>自动化测试"]
     root --> ops["部署<br/>Linux · CI/CD · 上云"]
 ```
 
@@ -39,29 +40,30 @@ flowchart TB
 
 ## English
 
-Software engineer working on AI agent development and AI-related backend APIs.
+Software engineer working on AI agents, agent bots, and AI-related backend APIs. I also write automated tests.
 
 ```console
 $ whoami
 Wayne
 
 $ ls ~/work
-backend/  agent-tooling/  ai-apis/  oss/
+backend/  agent-tooling/  ai-apis/  testing/  oss/
 ```
 
 ### Now
 
-Currently job hunting during the autumn recruitment cycle, looking for backend, test development, or AI agent roles.
+Currently in the autumn recruitment cycle, looking for AI agent, backend, or test development roles.
 
 ### Stack
 
-I mostly write Python, Java, and Go. On the client side I use TypeScript, including full-stack WeChat Mini Programs. I also work with Linux, CI/CD, and cloud deployment.
+I mostly write Python, Java, and Go, and use TypeScript to build WeChat Mini Programs on both the client and server. I've also built and deployed full-stack projects to the cloud, including domain and security group configuration. Linux and CI/CD are part of my daily workflow, and I can handle the deployment end to end.
 
 ```mermaid
 flowchart TB
     root((stack))
     root --> backend["Backend<br/>Python · Java · Go"]
     root --> client["Client<br/>TypeScript · WeChat Mini Programs"]
-    root --> ai["AI<br/>Agent development · backend APIs"]
+    root --> ai["AI<br/>agents / bots · backend APIs"]
+    root --> qa["Testing<br/>automation"]
     root --> ops["Delivery<br/>Linux · CI/CD · cloud"]
 ```
