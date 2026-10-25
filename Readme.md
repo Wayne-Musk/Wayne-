@@ -6,7 +6,7 @@
   <img src="assets/banner-light.svg" alt="Wayne" width="100%">
 </picture>
 
-软件工程师，主要做 AI Agent 开发和 AI 相关后端接口。
+软件工程师，方向为 AI Agent 开发和 AI 相关后端接口开发，同时具备自动化测试、Agent 机器人开发
 
 ```console
 $ whoami
@@ -18,11 +18,11 @@ backend/  agent-tooling/  ai-apis/  oss/
 
 ## 现在
 
-目前秋招中，主要在看后端开发、测试开发和 AI Agent 开发的机会。
+目前秋招求职中，主要在看AI Agent 开发、后端开发、测试开发的机会。
 
 ## 技术栈
 
-主要写 Python、Java、Go，客户端用 TypeScript，微信小程序前后端都能做。Linux 日常在用，CI/CD 和上云部署也能自己搞定。
+主要写 Python、Java、Go，客户端用 TypeScript，有全栈开发并部署云端，包含域名、安全组规则配置经验，微信小程序前后端都能做。Linux 日常在用，CI/CD 和上云部署也能自己搞定。
 
 ```mermaid
 flowchart TB
